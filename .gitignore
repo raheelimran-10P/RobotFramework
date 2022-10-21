@@ -1,3 +1,10 @@
 
 .idea
+Results/*.html
+Results/*.xml
 
+*.html
+*.xml
+Results/log.html
+Results/output.xml
+Results/report.html
