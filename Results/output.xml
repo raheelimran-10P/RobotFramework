@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0 (Python 3.8.10 on linux)" generated="20221021 10:44:42.491" rpa="false" schemaversion="3">
+<suite id="s1" name="PageObject" source="/home/raheel/RobotFramework/Tests/PageObject.robot">
+<test id="s1-t1" name="Verify Successful Login to OrangeHRM" line="13">
+<kw name="Opening Browser">
+<arg>${site_url}</arg>
+<arg>${browser}</arg>
+<msg timestamp="20221021 10:44:42.605" level="FAIL">No keyword with name 'Opening Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser</msg>
+<status status="FAIL" starttime="20221021 10:44:42.605" endtime="20221021 10:44:42.605"/>
+</kw>
+<kw name="Input Username">
+<status status="NOT RUN" starttime="20221021 10:44:42.607" endtime="20221021 10:44:42.607"/>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221021 10:44:42.607" endtime="20221021 10:44:42.607"/>
+</kw>
+<kw name="Click Login">
+<status status="NOT RUN" starttime="20221021 10:44:42.608" endtime="20221021 10:44:42.608"/>
+</kw>
+<kw name="Verify Welcome Text is Visible">
+<status status="NOT RUN" starttime="20221021 10:44:42.610" endtime="20221021 10:44:42.610"/>
+</kw>
+<kw name="Logout">
+<status status="NOT RUN" starttime="20221021 10:44:42.612" endtime="20221021 10:44:42.612"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20221021 10:44:42.612" endtime="20221021 10:44:42.612"/>
+</kw>
+<doc>This test case verifies that the user is able to successfully Login and Logout to OrangeHRM using Page Object</doc>
+<tag>Smoke</tag>
+<status status="FAIL" starttime="20221021 10:44:42.602" endtime="20221021 10:44:42.612">No keyword with name 'Opening Browser' found. Did you mean:
+    SeleniumLibrary.Open Browser</status>
+</test>
+<doc>Page Object in Robot Framework</doc>
+<status status="FAIL" starttime="20221021 10:44:42.492" endtime="20221021 10:44:42.612"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="PageObject">PageObject</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20221021 10:44:42.601" level="ERROR">Error in file '/home/raheel/RobotFramework/Tests/PageObject.robot' on line 4: Resource file '../Resources/PageObject/KeywordDefinationFiles/LoginPage.robot' does not exist.</msg>
+<msg timestamp="20221021 10:44:42.602" level="ERROR">Error in file '/home/raheel/RobotFramework/Tests/PageObject.robot' on line 5: Resource file '../Resources/PageObject/KeywordDefinationFiles/HomePage.robot' does not exist.</msg>
+<msg timestamp="20221021 10:44:42.602" level="ERROR">Error in file '/home/raheel/RobotFramework/Tests/PageObject.robot' on line 6: Resource file '../Resources/PageObject/KeywordDefinationFiles/Common.robot' does not exist.</msg>
+</errors>
+</robot>
